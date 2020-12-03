@@ -4,6 +4,7 @@ const chalk = require('chalk')
 const msg = getNotes()
 console.log(msg)
 
-console.log(chalk.red('Error!'))
-console.log(chalk.dim('Fading'))
+const greenMsg = chalk.blue.inverse.bold('Success!')
+console.log(greenMsg)
 
+console.log(process.argv)
