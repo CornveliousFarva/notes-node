@@ -65,9 +65,18 @@ const loadNotes = () => {
     
 }
 
+//List notes
+const listNotes = () => {
+    const notes = loadNotes
+    notes.forEach((note) => {
+
+    })
+}
+
 //Export
 module.exports = {
     getNotes: getNotes,
     addNote: addNote,
-    removeNote: removeNote
+    removeNote: removeNote,
+    listNotes: listNotes
 }
